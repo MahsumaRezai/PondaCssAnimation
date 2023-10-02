@@ -4,6 +4,12 @@
      box-sizing: border-box;
      padding-top: 50px
  }
+ .warrp {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center
+ }
  .head {
      width: 200px;
      height: 200px;
@@ -15,6 +21,9 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     margin-bottom: -20px;
+     z-index: 10;
+
     
  }
  .eyes {
@@ -96,4 +105,11 @@
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
     }
+}
+.main {
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
+    background:white;
+    border:2px solid black;
 }
