@@ -61,10 +61,31 @@
 .lips {
     width: 50px;
     height: 20px;
-    border: 1px solid black;
+    border: 5px solid black;
     margin-top: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     background: red
     
+}
+.line  {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+     padding-bottom: 10px;
+    &__left {
+        width: 20px;
+        height: 5px;
+        border: 2px solid black;
+        background: black;
+
+
+    }
+    &__rigth {
+        width: 20px;
+        height: 5px;
+        border: 2px solid black;
+        background: black;
+    }
 }
