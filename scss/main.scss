@@ -1,7 +1,8 @@
  body  {
      margin: 0%;
      padding: 0;
-     box-sizing: border-box
+     box-sizing: border-box;
+     padding-top: 50px
  }
  .head {
      width: 200px;
@@ -9,21 +10,61 @@
      background-color: white;
      border-radius: 200px;
      border: 2px solid black;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
     
-
  }
  .eyes {
      display: flex;
+     justify-content: center;
+     align-items: center;
+     gap:20px;
+
+
+
     &__left {
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        background: black
+        background: black;
+        text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center
+
     }
     &__rigth {
        width: 50px;
        height: 50px;
        border-radius: 50px;
-       background: black
+       background: black;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center
     }
  }
+ .dit  {
+     background: white;
+     width: 20px;
+     height: 20px;
+     border-radius: 20px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+.lips {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: red
+    
+}
